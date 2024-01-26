@@ -85,7 +85,6 @@ body {
   max-width: 300px;
   margin: 0 auto;
   margin-bottom: 32px;
-  margin-top: 32px;
 }
 
 input {
@@ -140,11 +139,17 @@ button:disabled {
   background: #cfcfcf;
 }
 
+.get-more-btn {
+  display: none;
+  margin: 12px auto;
+}
+
 /* Loader styles */
 .loader {
   width: 100%;
   height: 4.8px;
   display: none;
+  /*inline-block;*/
   position: relative;
   background: rgba(0, 0, 0, 0.15);
   overflow: hidden;
