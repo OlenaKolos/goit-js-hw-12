@@ -12,7 +12,7 @@ const getMoreBtn =
 const photoLoader = {
   url: 'https://pixabay.com/api/',
   searchParams: {
-    key: '40878457-91c7c8077e8a58c5727309d44',
+    key: '41933677-6eee14a43ac3f23b8d77fa6f0',
     q: '',
     image_type: 'photo',
     orientation: 'horizontal',
